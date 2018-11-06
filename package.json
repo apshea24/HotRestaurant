@@ -1,0 +1,24 @@
+{
+  "name": "HotRestaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apshea24/HotRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apshea24/HotRestaurant/issues"
+  },
+  "homepage": "https://github.com/apshea24/HotRestaurant#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
