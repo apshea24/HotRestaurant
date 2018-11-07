@@ -27,7 +27,7 @@ app.get("/reserve", function(req, res) {
     res.sendFile(path.join(__dirname, "reserve.html"))
 });
 
-app.get("/api/reservations", function(req, res) {
+app.get("/api/tables", function(req, res) {
     return res.json(reservations)
 });
 
@@ -35,7 +35,7 @@ app.get("/api/waitlist", function(req, res) {
     return res.json(waitlist)
 });
 
-app.post("/tables", function(req, res) {
+app.post("/api/tables", function(req, res) {
     let newRes = req.body;
 
     if (reservations.length > 5) {
